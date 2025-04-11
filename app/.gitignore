@@ -90,3 +90,19 @@ tvenv/
 # Mac & Linux
 .DS_Store
 *.swp
+
+
+# Ignore env files
+.env
+
+# Ignore log files
+*.log
+*.bin
+
+# Ignore Windows batch files
+*.bat
+
+# Ignore virtual environments
+venv/
+tvenv/
+
