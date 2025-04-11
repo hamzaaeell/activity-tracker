@@ -83,6 +83,10 @@ Pipfile.lock
 # Local history (optional)
 .history/
 
+tvenv/
+../tvenv/
+
+
 # Mac & Linux
 .DS_Store
 *.swp
