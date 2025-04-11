@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+tvenv/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Batch files
+*.bat
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# profiling
+.prof
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytype
+.pytype/
+
+# pipenv
+Pipfile.lock
+
+# pytest
+.pytest_cache/
+
+# pycharm
+.idea/
+
+# dotenv
+.env.*
+
+# Local history (optional)
+.history/
+
+# Mac & Linux
+.DS_Store
+*.swp
