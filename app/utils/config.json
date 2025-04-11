@@ -1,1 +1,1 @@
-{"user_consent": true, "aws_bucket": "monitoring-wyzet", "aws_region": "us-east-1", "encryption_key": "Ok41IR8qa0GteLBWvF_joo8AdnZ0W8AInzjMGh02LGw=", "screenshot_frequency": 30}
+{"user_consent": true, "aws_bucket": "monitoring-wyzet", "aws_region": "us-east-1", "encryption_key": "", "screenshot_frequency": 30}

@@ -10,18 +10,15 @@ from app.utils.config_loader import load_config
 
 def main():
     try:
-        # Load configuration
         config = load_config()
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(f"Configuration error: {str(e)}")
         sys.exit(1)
 
-    # Check user consent
     if not show_consent_dialog():
         print("Consent denied. Exiting.")
         return
 
-    # Initialize components with encryption key
     tracker = Tracker(config["encryption_key"])
     screenshot_monitor = ScreenshotMonitor(config["encryption_key"])
 
